@@ -1,5 +1,5 @@
 # Little Brother 
 
-## Julia Geist, Tassos Lambrou, Jimmy Hsu
+#### Julia Geist, Tassos Lambrou, Jimmy Hsu
 
 A rubric for government! 
