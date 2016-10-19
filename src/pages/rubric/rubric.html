@@ -1,0 +1,108 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Rubric</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="img/nin-live.png"/>
+    <ion-card-content>
+      <ion-card-title>
+        Graph
+      </ion-card-title>
+    </ion-card-content>
+  </ion-card>
+  <ion-list no-border>
+
+    <ion-list-header>
+      Areas of Concern
+    </ion-list-header>
+
+    <button ion-item item-left (click)="showContactPage()">
+      <ion-icon name='cash' item-left></ion-icon>
+        Economy
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        A+
+      </ion-note>
+    </button>
+
+    <button ion-item item-left (click)="showContactPage()">
+      <ion-icon name='home' item-left></ion-icon>
+      <ion-label>
+        City Management
+      </ion-label>
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        A+
+      </ion-note>
+    </button>
+
+    <ion-item>
+      <ion-icon name='lock' item-left></ion-icon>
+        Public Safety
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        A+
+      </ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='medkit' item-left></ion-icon>
+        Health and Social Services
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        A+
+      </ion-note>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list no-border>
+
+    <ion-list-header>
+      Areas of Concern
+    </ion-list-header>
+
+    <ion-item [navPush]="contactPage">
+      <ion-icon name='cash' item-left></ion-icon>
+        Economy
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        A+
+      </ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='home' item-left></ion-icon>
+      <ion-label>
+        City Management
+      </ion-label>
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        A+
+      </ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='lock' item-left></ion-icon>
+        Public Safety
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        A+
+      </ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='medkit' item-left></ion-icon>
+        Health and Social Services
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        A+
+      </ion-note>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
