@@ -6,7 +6,7 @@
 
 <ion-content>
   <ion-card>
-    <img src="img/nin-live.png"/>
+    <!-- <img src="img/nin-live.png"/> -->
     <ion-card-content>
       <ion-card-title>
         Graph
@@ -16,19 +16,19 @@
   <ion-list no-border>
 
     <ion-list-header>
-      Areas of Concern
+      Elections
     </ion-list-header>
 
-    <button ion-item item-left (click)="showContactPage()">
+    <button ion-item item-left (click)="showRubricDetailPage()">
       <ion-icon name='cash' item-left></ion-icon>
-        Economy
+        Democratic Criteria
       <ion-icon name='rose' item-right color="secondary"></ion-icon>
       <ion-note item-right>
         A+
       </ion-note>
     </button>
 
-    <button ion-item item-left (click)="showContactPage()">
+    <button ion-item item-left (click)="showRubricDetailPage()">
       <ion-icon name='home' item-left></ion-icon>
       <ion-label>
         City Management
@@ -62,10 +62,10 @@
   <ion-list no-border>
 
     <ion-list-header>
-      Areas of Concern
+      Transparency
     </ion-list-header>
 
-    <ion-item [navPush]="contactPage">
+    <ion-item>
       <ion-icon name='cash' item-left></ion-icon>
         Economy
       <ion-icon name='rose' item-right color="secondary"></ion-icon>
