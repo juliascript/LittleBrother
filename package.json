@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "^0.0.36",
+    "chart.js": "^2.3.0",
     "ng2-chartjs2": "^1.2.0",
     "typescript": "^2.0.3"
   },
