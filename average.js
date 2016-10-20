@@ -1,5 +1,5 @@
-
 // Averaging with equal weights
+// Takes in an array of ints
 public function avgEqualWeight(arrayOfPercentages){
 	var numberOfPercentages = arrayOfPercentages.length;
 	var sumOfPercentages = 0;
@@ -12,13 +12,8 @@ public function avgEqualWeight(arrayOfPercentages){
 	return average;
 }
 
-// Sample array to pass in
-// sampleArray = [78, 88, 25, 55];
-
-// print(avgEqualWeight(sampleArray));
-
-
 // Averaging with unequal weights
+// Takes in a dict with key/value pairs of ints
 public function avgUnequalWeight(dictionaryOfPercentagesAndWeights){
 	var weightedAverageDecimalVal = 0;
 	for (var percentage in dictionaryOfPercentagesAndWeights){
@@ -37,11 +32,6 @@ public function avgUnequalWeight(dictionaryOfPercentagesAndWeights){
 	round(weightedAverage, 1) 
 	return weightedAverage;
 }
-
-// Sample dict to pass in
-// sampleDict = {78: 20, 88: 20, 25: 50, 55: 10};
-
-// print(avgUnequalWeight(sampleDict));
 
 private function round(value, precision) {
     var multiplier = Math.pow(10, precision || 0);
