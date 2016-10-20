@@ -6,7 +6,13 @@
 
 <ion-content>
   <ion-card>
-    <!-- <img src="img/nin-live.png"/> -->
+    <canvas baseChart
+      [data]="doughnutChartData"
+      [labels]="doughnutChartLabels"
+      [chartType]="doughnutChartType"
+      (chartHover)="chartHovered($event)"
+      (chartClick)="chartClicked($event)">
+    </canvas>
     <ion-card-content>
       <ion-card-title>
         Graph
