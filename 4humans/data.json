@@ -1,0 +1,24 @@
+{
+    "govt": "San Francisco" {
+        "score": "72%",
+        "rubric": {
+            "categories": [
+                "Transparency" {
+                    "aspects": [
+                        "Accessible, Current, Clear, and Consistent"
+                        {
+                            "criteria": [
+                                
+                                {
+                                    "sources": [
+                                        {
+                                            "url": [
+                                                ""
+                                            ]
+                        }]
+                    }]
+                }]
+            }]
+        }
+    }
+}
