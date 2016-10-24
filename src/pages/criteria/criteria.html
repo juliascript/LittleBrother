@@ -1,15 +1,15 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Rubric Details</ion-title>
+    <ion-title>Criteria</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-card>
     <canvas baseChart
-      [data]="doughnutChartData"
-      [labels]="doughnutChartLabels"
-      [chartType]="doughnutChartType"
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [chartType]="lineChartType"
       (chartHover)="chartHovered($event)"
       (chartClick)="chartClicked($event)">
     </canvas>
