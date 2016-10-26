@@ -5,51 +5,46 @@
             "categories": [{
                 "Transparency" : {
                     "aspects": [{
-                        "Accessible, Current, Clear, and Consistent" : {
-                            "criteria": [
-                                {
-                                    "Media policy is publicly available on their website" :
+                        "content" : "Accessible, Current, Clear, and Consistent",
+                        "criteria": [
+                            {
+                                "content" : "Media policy is publicly available on their website",
 
-                                    {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
-                                    }
-                                }
-                                ,
+                                "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                            },
 
-                                {
-                                    "Media policy is clear and consistent" :
-                                    {
-                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
-                                    }
-                                }
-                                ,
-                                {"Media policy has been updated in the past 10 years" :
+                            {
+                                "content" : "Media policy is clear and consistent",
 
-                                    {
-                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
-                                    }
-                                }
-                                ]
-                        }
+                                "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                            }
+                            ,
+                            {
+                                "content" : "Media policy has been updated in the past 10 years",
+
+                                "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                            }
+                        ]
                     },
                     {
-                        "Protects fundamental free speech" : {
-                            "criteria": [
-                                {
-                                    "Media policy explicitly permits employees to speak freely about their personal views" :
+                        "content" : "Protects fundamental free speech", 
+                        "criteria": [
+                            {
+                                "Media policy explicitly permits employees to speak freely about their personal views" :
 
-                                    {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
-                                    }
+                                {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
                                 }
-                                ,
+                            }
+                            ,
 
+                            {
+                                "Media policy explicitly permits employees to review the final version of press releases or other agency documents that make use of their expertise, to ensure the accuracy has been maintained" :
                                 {
-                                    "Media policy explicitly permits employees to review the final version of press releases or other agency documents that make use of their expertise, to ensure the accuracy has been maintained" :
-                                    {
-                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
-                                    }
+                                    "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
                                 }
+                            }
 
-                                ]
+                            ]
                         }
                     },
                     {
