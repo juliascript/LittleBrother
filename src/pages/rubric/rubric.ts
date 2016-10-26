@@ -25,31 +25,14 @@ export class RubricPage {
     public lineChartType:string = 'line';
 
     public doughnutChartColors:Array<any> = [
-    { // grey
-      backgroundColor: 'rgba(148,159,177,0.2)',
-      borderColor: 'rgba(148,159,177,1)',
-      pointBackgroundColor: 'rgba(148,159,177,1)',
-      pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: 'rgba(148,159,177,0.8)'
-    },
-    { // dark grey
-      backgroundColor: 'rgba(77,83,96,0.2)',
-      borderColor: 'rgba(77,83,96,1)',
-      pointBackgroundColor: 'rgba(77,83,96,1)',
-      pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: 'rgba(77,83,96,1)'
-    },
-    { // grey
-      backgroundColor: 'rgba(148,159,177,0.2)',
-      borderColor: 'rgba(148,159,177,1)',
-      pointBackgroundColor: 'rgba(148,159,177,1)',
-      pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: 'rgba(148,159,177,0.8)'
-    }
-  ];
+    { // Red
+      backgroundColor: ['rgba(196,77,88,0.8)', 'rgba(245,190,53,0.8)', 'rgba(199,244,100,0.8)', 'rgba(78,205,196,0.8)', 'rgba(85,98,112,0.8)', 'rgba(22,193,243,0.8)', 'rgba(145,32,77,0.8)', 'rgba(228,132,74,0.8)'],
+      borderColor:  ['rgba(196,77,88,1)', 'rgba(245,190,53,1)', 'rgba(199,244,100,1)', 'rgba(78,205,196,1)', 'rgba(85,98,112,1)', 'rgba(22,193,243,1)', 'rgba(145,32,77,1)', 'rgba(228,132,74,1)'],
+      pointBackgroundColor:  ['rgba(196,77,88,1)', 'rgba(245,190,53,1)', 'rgba(199,244,100,1)', 'rgba(78,205,196,1)', 'rgba(85,98,112,1)', 'rgba(22,193,243,1)', 'rgba(145,32,77,1)', 'rgba(228,132,74,1)'],
+      pointHoverBorderColor: ['rgba(196,77,88,0.8)', 'rgba(245,190,53,0.8)', 'rgba(199,244,100,0.8)', 'rgba(78,205,196,0.8)', 'rgba(85,98,112,0.8)', 'rgba(22,193,243,0.8)', 'rgba(145,32,77,0.8)', 'rgba(228,132,74,0.8)']
+      }];
+
+    
 
     // events
     public chartClicked(e:any):void {
