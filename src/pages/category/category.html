@@ -1,35 +1,48 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Category</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-<<<<<<< HEAD
-  <h2>Little Brother is Watching Too.</h2>
+<ion-content>
+  <ion-card>
+    <canvas baseChart
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [chartType]="lineChartType"
+      (chartHover)="chartHovered($event)"
+      (chartClick)="chartClicked($event)">
+    </canvas>
+    <ion-card-content>
+      <ion-card-title>
+        Graph
+      </ion-card-title>
+    </ion-card-content>
+  </ion-card>
+
   <ion-list no-border>
 
-    <!-- <ion-list-header>
+    <ion-list-header>
       Elections
-    </ion-list-header> -->
+    </ion-list-header>
 
-    <button ion-item item-left >
+    <button ion-item item-left (click)="showCriteriaPage()">
       <ion-icon name='cash' item-left></ion-icon>
         Democratic Criteria
       <ion-icon name='rose' item-right color="secondary"></ion-icon>
       <ion-note item-right>
-        A+
+        63%
       </ion-note>
     </button>
 
-    <button ion-item item-left >
+    <button ion-item item-left (click)="showCriteriaPage()">
       <ion-icon name='home' item-left></ion-icon>
       <ion-label>
         City Management
       </ion-label>
       <ion-icon name='rose' item-right color="secondary"></ion-icon>
       <ion-note item-right>
-        A+
+        82%
       </ion-note>
     </button>
 
@@ -38,7 +51,7 @@
         Public Safety
       <ion-icon name='rose' item-right color="secondary"></ion-icon>
       <ion-note item-right>
-        A+
+        71%
       </ion-note>
     </ion-item>
 
@@ -47,16 +60,10 @@
         Health and Social Services
       <ion-icon name='rose' item-right color="secondary"></ion-icon>
       <ion-note item-right>
-        A+
+        59%
       </ion-note>
     </ion-item>
 
   </ion-list>
 
-=======
-  <h2>Little Brother is watching too...</h2>
-  <p>
-    Welcome to Little Brother, a scalable platform for rating, tracking, and providing feedback to local governments!  See how your government scores over time or compared to others.
-  </p>
->>>>>>> master
 </ion-content>

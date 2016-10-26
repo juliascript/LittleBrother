@@ -1,0 +1,307 @@
+{
+    "govt": [{"San Francisco": {
+        "score": "72%",
+        "rubric": {
+            "categories": [{
+                "Transparency" : {
+                    "aspects": [{
+                        "content" : "Accessible, Current, Clear, and Consistent",
+                        "criteria": [
+                            {
+                                "content" : "Media policy is publicly available on their website",
+
+                                "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                            },
+
+                            {
+                                "content" : "Media policy is clear and consistent",
+
+                                "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                            }
+                            ,
+                            {
+                                "content" : "Media policy has been updated in the past 10 years",
+
+                                "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                            }
+                        ]
+                    },
+                    {
+                        "content" : "Protects fundamental free speech", 
+                        "criteria": [
+                            {
+                                "Media policy explicitly permits employees to speak freely about their personal views" :
+
+                                {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                }
+                            }
+                            ,
+
+                            {
+                                "Media policy explicitly permits employees to review the final version of press releases or other agency documents that make use of their expertise, to ensure the accuracy has been maintained" :
+                                {
+                                    "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                }
+                            }
+
+                            ]
+                        }
+                    },
+                    {
+                        "Safeguards Against Abuse" : {
+                            "criteria": [
+                                {
+                                    "Media policy does not require pre-approval by public affairs of contacts with the media" :
+
+                                    {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ,
+
+                                {
+                                    "Media policy does not direct that all media requests be routed by public affairs to approved agency spokespeople" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ,
+                                {
+                                    "Media policy does not require prior clearance of the questions or topics to addressed in interviews" :
+
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "Media policy specifies that only scientists, or those with the need technical expertise, may edit the scientific content of agency communications" :
+
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "Media policy specifies that public have access to drafts and revisions or press releases or agency documents" :
+
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ]
+                        }
+                    },
+                    {
+                        "Consistent with Legal Requirements" : {
+                            "criteria": [
+                                {
+                                    "Media policy complies with the Anti-Gag Statute" :
+
+                                    {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ,
+
+                                {
+                                    "Media policy does not contain restrictions on Sensitive But Unclassified (SBU) information, Controlled Unclassified Information (CUI) or other “hybrid secrecy designations”" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ]
+                        }
+                    },
+                    {
+                        "Promotes Openness and Timeliness" : {
+                            "criteria": [
+                                {
+                                    "Media policy contains significant and explicit language calling for open communications between agency employees and the public" :
+
+                                    {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ,
+
+                                {
+                                    "Media policy contains provisions to ensure timely responses to interview requests and quick turnaround on release of press releases or agency communications" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ]
+                        }
+                    },
+                    {
+                        "Disclosure of Misconduct & Resolution of Disputes" : {
+                            "criteria": [
+                                {
+                                    "Media policy itself contains protections for whistle-blowers or alerts agency employees to their rights under federal whistle-blower law" :
+
+                                    {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ,
+
+                                {
+                                    "Media policy contains a process for resolving disputes about media contacts or relations" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ]
+                        }
+                    }
+                ]
+                }
+            },
+            {
+                "Elections" : {
+                    "aspects": [{
+                        "Democratic and Fairness" : {
+                            "criteria": [
+                                {
+                                    "Opposition parties and candidates must enjoy the freedom of speech, assembly, and movement necessary to voice their criticisms of the government openly and to bring alternative policies and candidates to the voters" :
+
+                                    {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ,
+
+                                {
+                                    "Elections are periodic" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ,
+                                {
+                                    "Elections are inclusive. The definition of citizen and voter must be large enough to include a large proportion of the adult population" :
+
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "Election results are definitive. They determine the leadership of the government. Subject to the laws and constitution of the country, popularly elected representatives hold the reins of power. They are not simply figureheads or symbolic leaders" :
+
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "Democratic elections are not limited to selecting candidates. Voters can also be asked to decide policy issues directly through referendums and initiatives that are placed on the ballot" :
+
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ]
+                        }
+                    },
+                    {
+                        "Electronic Voting Criteria" : {
+                            "criteria": [
+                                {
+                                    "Voting machines software has been validated by multiple third-party reviews" :
+
+                                    {"sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+                                ,
+                                {
+                                    "Machines are re-calibrated and logged upon moving" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "Paper receipt of with verifiable trace to original vote given to the voter" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "Exit polls are measured. Election results are within a standard error of the exit polls" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "The computer systems (in hardware and system software) must be tamperproof. Ideally, system changes must be prohibited throughout the active stages of the election process. That is, once certified, the code, initial parameters, and configuration information must remain static. No run-time self-modifying software can be permitted" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "All data involved in entering and tabulating votes must be tamperproof. Votes must be recorded correctly" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "The voting counts must be protected from external reading during the voting process. The association between recorded votes and the identity of the voter must be completely unknown within the voting systems" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "Operator authentication. All people authorized to administer an election must gain access with nontrivial authentication mechanisms. Fixed passwords are generally not adequate. There must be no trapdoors --- for example, for maintenance and setup --- that could be used for operational subversions" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "All internal operations must be monitored, without violating voter confidentiality. Monitoring must include votes recorded and votes tabulated, and all system programming and administrative operations such as pre- and post-election testing" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "The system software, hardware, microcode, and any custom circuitry must be open for random inspection at any time (including documentation), despite cries for secrecy from the system vendors" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "The system must be protected against both accidental and malicious denials of service, and must be available for use whenever it is expected to be operational" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "System development (design, implementation, maintenance, etc.) should attempt to minimize the likelihood of accidental system bugs and malicious code" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "Systems must be amenable to easy use by local election officials, and must not necessitate the on-line control of external personnel (such as vendor-supplied operators). The interface to the system should be inherently fail-safe, fool-proof, and overly cautious in defending against accidental and intentional misuse" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "The design, implementation, development practice, operational procedures, and testing procedures must all be unambiguously and consistently documented. Documentation must also describe what assurance measures have been applied to each of those system aspects" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                },
+                                {
+                                    "People involved in developing, operating, and administering electronic voting systems must be of unquestioned integrity. For example, convicted felons and gambling entrepreneurs are suspect" :
+                                    {
+                                        "sources": ["http://sfgov.org/open-gov", "http://sfgov.org/open-gov", "http://sfgov.org/open-gov"]
+                                    }
+                                }
+
+                                ]
+                        }
+                    }
+                ]
+                }
+            }
+
+
+            ]
+            }
+            }
+        }
+    ]
+    }
