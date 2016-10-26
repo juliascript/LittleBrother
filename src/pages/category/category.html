@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Transparency</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <canvas baseChart
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [chartType]="lineChartType"
+      (chartHover)="chartHovered($event)"
+      (chartClick)="chartClicked($event)">
+    </canvas>
+    <ion-card-content>
+      <ion-card-title>
+        Graph
+      </ion-card-title>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list no-border>
+
+    <ion-list-header>
+      Elections
+    </ion-list-header>
+
+    <button ion-item item-left (click)="showCriteriaPage()">
+      <ion-icon name='cash' item-left></ion-icon>
+        Democratic Criteria
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        63%
+      </ion-note>
+    </button>
+
+    <button ion-item item-left (click)="showCriteriaPage()">
+      <ion-icon name='home' item-left></ion-icon>
+      <ion-label>
+        City Management
+      </ion-label>
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        82%
+      </ion-note>
+    </button>
+
+    <ion-item>
+      <ion-icon name='lock' item-left></ion-icon>
+        Public Safety
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        71%
+      </ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='medkit' item-left></ion-icon>
+        Health and Social Services
+      <ion-icon name='rose' item-right color="secondary"></ion-icon>
+      <ion-note item-right>
+        59%
+      </ion-note>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
