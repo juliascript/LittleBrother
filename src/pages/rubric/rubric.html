@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Organization</ion-title>
+    <ion-title>Government</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -12,18 +12,25 @@
       <ion-card-title>
         San Francisco
       </ion-card-title>
-      <div class="test">
+      <ion-fab edge>
+    <button ion-fab color="rate75" text-color="light">
+      <h1>76%</h1>
+    </button>
+  </ion-fab>
       <canvas baseChart
                 [data]="doughnutChartData"
                 [labels]="doughnutChartLabels"
                 [chartType]="doughnutChartType"
                 (chartHover)="chartHovered($event)"
                 (chartClick)="chartClicked($event)"
+                [colors]="doughnutChartColors"
                 [legend]=false></canvas>
-    </div>
+
     </ion-card-content>
 
   </ion-card>
+
+
   <ion-list no-border>
 
       <button ion-item item-left (click)="showCategoryPage()">
@@ -31,9 +38,9 @@
         <ion-label>
           Transparency
         </ion-label>
-        <ion-icon name='thumbs-up' item-right color="rate75"></ion-icon>
+        <ion-icon name='thumbs-up' item-right color="rate65"></ion-icon>
         <ion-note item-right>
-          78%
+          63%
         </ion-note>
       </button>
 
