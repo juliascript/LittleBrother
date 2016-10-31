@@ -17,7 +17,12 @@ export class CategoryPage {
     scales: {
       xAxes: [{
         display: false
-      }]
+      }],
+      yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+        }]
     },
     responsive: true
   };

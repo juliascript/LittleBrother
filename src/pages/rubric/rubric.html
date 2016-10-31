@@ -13,18 +13,11 @@
         San Francisco
       </ion-card-title>
       <ion-fab edge>
-    <button ion-fab color="rate75" text-color="light">
+        <button ion-fab color="rate75" text-color="light">
       <h1>76%</h1>
     </button>
-  </ion-fab>
-      <canvas baseChart
-                [data]="doughnutChartData"
-                [labels]="doughnutChartLabels"
-                [chartType]="doughnutChartType"
-                (chartHover)="chartHovered($event)"
-                (chartClick)="chartClicked($event)"
-                [colors]="doughnutChartColors"
-                [legend]=false></canvas>
+      </ion-fab>
+      <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)" [colors]="doughnutChartColors" [legend]=false></canvas>
 
     </ion-card-content>
 
@@ -33,82 +26,74 @@
 
   <ion-list no-border>
 
-      <button ion-item item-left (click)="showCategoryPage({test:'test'})">
-        <ion-icon name='eye' item-left></ion-icon>
+    <button ion-item item-left (click)="showCategoryPage({test:'test'})">
+        <ion-badge item-left color="rate65"><h2>63%</h2></ion-badge>
         <ion-label>
           Transparency
         </ion-label>
-        <ion-icon name='thumbs-up' item-right color="rate65"></ion-icon>
-        <ion-note item-right>
-          63%
-        </ion-note>
+        <ion-icon  name='eye' item-right color="text1"></ion-icon>
       </button>
 
+
     <button ion-item item-left (click)="showCategoryPage({test:'test'})">
-      <ion-icon name='checkbox-outline' item-left></ion-icon>
-        Elections
-      <ion-icon name='thumbs-up' item-right color="rate70"></ion-icon>
-      <ion-note item-right>
-        73%
-      </ion-note>
+      <ion-badge item-left color="rate75"><h2>73%</h2></ion-badge>
+      <ion-label>
+        <h2>Elections</h2>
+      </ion-label>
+
+      <ion-icon name='checkbox-outline' item-right color="text2"></ion-icon>
     </button>
 
 
-    <ion-item>
-      <ion-icon name='bonfire' item-left></ion-icon>
-        Public Safety
-      <ion-icon name='thumbs-up' item-right color="rate95"></ion-icon>
-      <ion-note item-right>
-        95%
-      </ion-note>
-    </ion-item>
-
-    <ion-item>
-      <ion-icon name='pulse' item-left></ion-icon>
-        Health and Social Services
-      <ion-icon name='thumbs-down' item-right color="rate60"></ion-icon>
-      <ion-note item-right>
-        63%
-      </ion-note>
-    </ion-item>
-
-    <ion-item>
-      <ion-icon name='cash' item-left></ion-icon>
-        Economy
-      <ion-icon name='thumbs-up' item-right color="rate70"></ion-icon>
-      <ion-note item-right>
-        73%
-      </ion-note>
-    </ion-item>
-
-    <ion-item>
-      <ion-icon name='home' item-left></ion-icon>
+    <button ion-item item-left (click)="showCategoryPage({test:'test'})">
+      <ion-badge item-left color="rate95"><h2>95%</h2></ion-badge>
       <ion-label>
-        Administration
+        <h2>Public Safety</h2>
       </ion-label>
-      <ion-icon name='thumbs-down' item-right color="rate60"></ion-icon>
-      <ion-note item-right>
-        62%
-      </ion-note>
-    </ion-item>
+      <ion-icon name='bonfire' item-right color="text3"></ion-icon>
+    </button>
 
-    <ion-item>
-      <ion-icon name='train' item-left></ion-icon>
-        Transportation
-      <ion-icon name='thumbs-up' item-right color="rate90"></ion-icon>
-      <ion-note item-right>
-        91%
-      </ion-note>
-    </ion-item>
+    <button ion-item item-left (click)="showCategoryPage({test:'test'})">
+      <ion-badge item-left color="rate65"><h2>63%</h2></ion-badge>
+      <ion-label>
+        <h2>Health and Social Services</h2>
+      </ion-label>
+      <ion-icon name='pulse' item-right color="text4"></ion-icon>
+    </button>
 
-    <ion-item>
-      <ion-icon name='trash' item-left></ion-icon>
-        Waste Management
-      <ion-icon name='thumbs-down' item-right color="rate35"></ion-icon>
-      <ion-note item-right>
-        36%
-      </ion-note>
-    </ion-item>
+    <button ion-item item-left (click)="showCategoryPage({test:'test'})">
+      <ion-badge item-left color="rate40"><h2>42%</h2></ion-badge>
+      <ion-label>
+        <h2>City Budget</h2>
+      </ion-label>
+      <ion-icon name='cash' item-right color="text5"></ion-icon>
+    </button>
+
+
+    <button ion-item item-left (click)="showCategoryPage({test:'test'})">
+      <ion-badge item-left color="rate60"><h2>62%</h2></ion-badge>
+      <ion-label>
+        <h2>Administration</h2>
+      </ion-label>
+      <ion-icon name='home' item-right color="text6"></ion-icon>
+    </button>
+
+
+    <button ion-item item-left (click)="showCategoryPage({test:'test'})">
+      <ion-badge item-left color="rate15"><h2>15%</h2></ion-badge>
+      <ion-label>
+        <h2>Transportation</h2>
+      </ion-label>
+      <ion-icon name='train' item-right color="text7"></ion-icon>
+    </button>
+
+    <button ion-item item-left (click)="showCategoryPage({test:'test'})">
+      <ion-badge item-left color="rate35"><h2>36%</h2></ion-badge>
+      <ion-label>
+        <h2>Waste Management</h2>
+      </ion-label>
+      <ion-icon name='trash' item-right color="text8"></ion-icon>
+    </button>
 
 
   </ion-list>
@@ -117,46 +102,46 @@
     Gov't Agencies
   </ion-list-header>
 
-<ion-list no-border>
+  <ion-list no-border>
 
 
 
-  <ion-item>
-    <ion-icon name='paw' item-left></ion-icon>
+    <ion-item>
+      <ion-icon name='paw' item-left></ion-icon>
       Animal Care/Control
-    <ion-icon name='thumbs-down' item-right color="rate80"></ion-icon>
-    <ion-note item-right>
-      82%
-    </ion-note>
-  </ion-item>
+      <ion-icon name='thumbs-down' item-right color="rate80"></ion-icon>
+      <ion-note item-right>
+        82%
+      </ion-note>
+    </ion-item>
 
-  <ion-item>
-    <ion-icon name='person-add' item-left></ion-icon>
+    <ion-item>
+      <ion-icon name='person-add' item-left></ion-icon>
       Ageing and Adult Services
-    <ion-icon name='thumbs-down' item-right color="rate70"></ion-icon>
-    <ion-note item-right>
-      74%
-    </ion-note>
-  </ion-item>
+      <ion-icon name='thumbs-down' item-right color="rate70"></ion-icon>
+      <ion-note item-right>
+        74%
+      </ion-note>
+    </ion-item>
 
-  <ion-item>
-    <ion-icon name='albums' item-left></ion-icon>
+    <ion-item>
+      <ion-icon name='albums' item-left></ion-icon>
       Board of Supervisors
-    <ion-icon name='thumbs-down' item-right color="rate40"></ion-icon>
-    <ion-note item-right>
-      42%
-    </ion-note>
-  </ion-item>
+      <ion-icon name='thumbs-down' item-right color="rate40"></ion-icon>
+      <ion-note item-right>
+        42%
+      </ion-note>
+    </ion-item>
 
-  <ion-item>
-    <ion-icon name='medkit' item-left></ion-icon>
+    <ion-item>
+      <ion-icon name='medkit' item-left></ion-icon>
       Department of Mental Health
-    <ion-icon name='thumbs-down' item-right color="rate15"></ion-icon>
-    <ion-note item-right>
-      19%
-    </ion-note>
-  </ion-item>
+      <ion-icon name='thumbs-down' item-right color="rate15"></ion-icon>
+      <ion-note item-right>
+        19%
+      </ion-note>
+    </ion-item>
 
-   </ion-list>
+  </ion-list>
 
 </ion-content>
