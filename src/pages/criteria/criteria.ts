@@ -2,6 +2,11 @@ import { Component } from '@angular/core';
 
 import { NavParams } from 'ionic-angular';
 
+import { ModalController } from 'ionic-angular';
+import { ViewController } from 'ionic-angular';
+
+import { ModalPage } from './modal-page';
+
 @Component({
   selector: 'page-criteria',
   templateUrl: 'criteria.html'
@@ -27,8 +32,28 @@ export class CriteriaPage {
     console.log(e);
   }
 
-  constructor(public params: NavParams) {
+  public openModal() {
+    let modal = this.modalCtrl.create(TakeActionModal);
+    modal.present();
+  }
+
+  constructor(public params: NavParams, public modalCtrl: ModalController) {
     this.item = params.data.item;
   }
 
+}
+
+@Component({
+  selector: 'modal-takeaction',
+  templateUrl: 'takeaction.html'
+})
+export class TakeActionModal {
+
+  constructor(public params: NavParams, public viewCtrl: ViewController) {
+
+  }
+
+  public dismiss() {
+    this.viewCtrl.dismiss();
+  }
 }
