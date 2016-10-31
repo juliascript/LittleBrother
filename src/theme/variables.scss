@@ -11,7 +11,7 @@
 // http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
 
 $text-color:        #000;
-$background-color:  #FFF;
+$background-color:  #F7FFFB;
 
 
 // Named Color Variables
@@ -41,7 +41,7 @@ $colors: (
   rate55:         #EBD14E,
   rate50:         #FFD44A,
   rate45:         #FCC74D,
-  rate40:         #F9BC4F,
+  rate41:         #F9BC4F,
   rate35:         #F5B151,
   rate30:         #F3A553,
   rate25:         #EF9A55,
@@ -49,7 +49,23 @@ $colors: (
   rate15:         #E98459,
   rate10:         #E6795B,
   rate5:          #E26F5C,
-  rate0:          #E0655E
+  rate0:          #E0655E,
+  chart1:         rgba(196,77,88,1),
+  chart2:         rgba(245,190,53,1),
+  chart3:         rgba(199,244,100,1),
+  chart4:         rgba(78,205,196,1),
+  chart5:         rgba(22,193,243,1),
+  chart6:         rgba(85,98,112,1),
+  chart7:         rgba(145,32,77,1),
+  chart8:         rgba(228,132,74,1),
+  text1:          rgba(196,77,88,1),
+  text2:          #C89A2B,
+  text3:          #92C543,
+  text4:          #42A69A,
+  text5:         rgba(22,193,243,1),
+  text6:         rgba(85,98,112,1),
+  text7:         rgba(145,32,77,1),
+  text8:         rgba(228,132,74,1)
 );
 
 
@@ -90,4 +106,7 @@ $colors: (
 // http://ionicframework.com/docs/v2/ionicons/
 
 $ionicons-font-path: "../assets/fonts";
+
+// $headings-font-weight: 1700;
+
 @import "ionicons";
