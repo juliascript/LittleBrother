@@ -9,10 +9,9 @@ import { AlertController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController, alerCtrl: AlertController) {
+  constructor(public navCtrl: NavController, public alerCtrl: AlertController) {
 
   }
-
 
  doConfirm() {
    let confirm = this.alerCtrl.create({
