@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar no-border-bottom>
     <ion-title>Your Government</ion-title>
 
     <ion-buttons end>
@@ -8,6 +8,19 @@
       </button>
     </ion-buttons>
   </ion-navbar>
+  <ion-toolbar no-border-top>
+    <ion-segment [(ngModel)]="govt">
+      <ion-segment-button value="local">
+        Local
+      </ion-segment-button>
+      <ion-segment-button value="state">
+        State
+      </ion-segment-button>
+      <ion-segment-button value="federal">
+        Federal
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
@@ -25,17 +38,6 @@
             </ion-col>
           </ion-row>
           <ion-row>
-          <ion-segment [(ngModel)]="govt">
-            <ion-segment-button value="local">
-              Local
-            </ion-segment-button>
-            <ion-segment-button value="state">
-              State
-            </ion-segment-button>
-            <ion-segment-button value="federal">
-              Federal
-            </ion-segment-button>
-          </ion-segment>
       </ion-row>
 
     <ion-row padding="10px">
