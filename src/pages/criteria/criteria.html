@@ -5,25 +5,18 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-card>
-    <ion-card-content>
-      <ion-card-title text-center>
-        <!-- <p text-center> -->
-          Media policy is publicly available on their website
-        <!-- </p> -->
-      </ion-card-title>
-      <canvas baseChart
-        [datasets]="lineChartData"
-        [labels]="lineChartLabels"
-        [chartType]="lineChartType"
-        (chartHover)="chartHovered($event)"
-        (chartClick)="chartClicked($event)">
-      </canvas>
-      <button ion-button block (click)="openModal()">Take Action</button>
-    </ion-card-content>
-    <!-- <ion-item> -->
-    <!-- </ion-item> -->
-  </ion-card>
+
+  <h2 text-center>
+    Media policy is publicly available on their website
+  </h2>
+  <canvas baseChart
+    [datasets]="lineChartData"
+    [labels]="lineChartLabels"
+    [chartType]="lineChartType"
+    (chartHover)="chartHovered($event)"
+    (chartClick)="chartClicked($event)">
+  </canvas>
+  <button ion-button block (click)="openModal()">Take Action</button>
 
   <ion-list>
     <ion-list-header>

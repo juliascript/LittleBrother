@@ -5,6 +5,7 @@ import { RubricPage } from '../pages/rubric/rubric';
 import { CategoryPage } from '../pages/category/category';
 import { CriteriaPage } from '../pages/criteria/criteria';
 import { ContactPage } from '../pages/contact/contact';
+import { ComparisonPage } from '../pages/comparison/comparison';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TakeActionModal } from '../pages/criteria/criteria';
@@ -20,6 +21,7 @@ import '../../node_modules/chart.js/dist/Chart.bundle.min.js';
     CategoryPage,
     CriteriaPage,
     ContactPage,
+    ComparisonPage,
     HomePage,
     TabsPage,
     TakeActionModal
@@ -35,6 +37,7 @@ import '../../node_modules/chart.js/dist/Chart.bundle.min.js';
     CategoryPage,
     CriteriaPage,
     ContactPage,
+    ComparisonPage,
     HomePage,
     TabsPage,
     TakeActionModal
