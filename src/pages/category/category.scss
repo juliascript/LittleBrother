@@ -1,8 +1,17 @@
 page-category {
+
   ion-fab button h1 {
     margin-bottom: 0;
   }
   ion-col h1 {
     margin-bottom: 0;
   }
+
+  button ion-badge  {
+    height: 100%;
+    h2 {
+      color: #FFF;
+    }
+  }
+
 }

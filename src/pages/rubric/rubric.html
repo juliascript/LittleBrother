@@ -9,11 +9,11 @@
 
     <ion-card-content>
       <ion-card-title>
-        San Francisco
+        <h1>San Francisco, CA</h1>
       </ion-card-title>
-      <ion-fab edge>
+      <ion-fab edge-right>
         <button ion-fab color="rate75" text-color="light">
-      <h2>76%</h2>
+      <h1>76%</h1>
     </button>
       </ion-fab>
       <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)" [colors]="doughnutChartColors" [legend]=false></canvas>
@@ -30,7 +30,9 @@
         <ion-label>
           Transparency
         </ion-label>
+        <!-- <button class="icon-button" ion-button item-right color="text1"> -->
         <ion-icon  name='eye' item-right color="text1"></ion-icon>
+    <!-- </button> -->
       </button>
 
 
