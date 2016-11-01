@@ -1,3 +1,41 @@
 page-comparison {
 
+
+        #city-title {
+            font-size: 14pt;
+        }
+
+      .icon-button {
+          height: 100%;
+          color: #FFF;
+
+      }
+
+      ion-col h2 {
+        margin-bottom: 0;
+        margin-top: 0;
+
+      }
+
+
+      button ion-badge  {
+        height: 100%;
+        margin: 0;
+        h2 {
+            height: 100%;
+          color: #FFF;
+        }
+      }
+
+      button .item-inner ion-badge  {
+        height: auto;
+        margin: 0;
+        h2 {
+            height: 100%;
+          color: #FFF;
+        }
+      }
+
+
+
 }

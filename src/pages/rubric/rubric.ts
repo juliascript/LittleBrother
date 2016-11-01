@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { CategoryPage } from '../category/category';
+import { ComparisonPage } from '../comparison/comparison';
 
 @Component({
   selector: 'page-rubric',
@@ -11,7 +12,7 @@ import { CategoryPage } from '../category/category';
 export class RubricPage {
 
     govt: string = "local";
-    
+
     // Doughnut
     public doughnutChartLabels:string[] = ['Transparency', 'Elections', 'Public Safety', 'Health and Social Services', 'Economy', 'Administration', 'Transportation', 'Waste Management'];
     public doughnutChartData:number[] = [73, 78, 95, 63, 73, 62, 91, 36];
@@ -55,6 +56,10 @@ export class RubricPage {
 
   public showCategoryPage(rubricItemData:any):void {
     this.navCtrl.push(CategoryPage, { data: rubricItemData });
+  }
+
+  public showComparisonPage(rubricItemData:any):void {
+    this.navCtrl.push(ComparisonPage, { data: rubricItemData });
   }
 
 }
