@@ -8,6 +8,7 @@ page-comparison {
       .icon-button {
           height: 100%;
           color: #FFF;
+
       }
 
       ion-col h2 {
@@ -27,7 +28,7 @@ page-comparison {
       }
 
       button .item-inner ion-badge  {
-        height: 100%;
+        height: auto;
         margin: 0;
         h2 {
             height: 100%;
