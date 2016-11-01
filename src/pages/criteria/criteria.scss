@@ -1,10 +1,21 @@
 page-criteria {
 
-    ion-badge  {
-        height: 100%;
+    ion-col h2 {
+      margin-bottom: 0;
+
+    }
+
+    ion-badge {
         h2 {
             color: #FFF;
         }
     }
-    
+
+    button ion-badge  {
+      height: 100%;
+      h2 {
+        color: #FFF;
+      }
+    }
+
 }

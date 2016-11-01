@@ -1,12 +1,18 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Government</ion-title>
+    <ion-title>Your Government</ion-title>
+
+    <ion-buttons end>
+      <button ion-button color="chart4">
+        <ion-icon  name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
 
-  <ion-grid padding>
+  <ion-grid>
     <ion-row>
       <ion-col width-100>
 
@@ -15,10 +21,24 @@
               <h2 text-left>San Francisco, CA</h2>
             </ion-col>
             <ion-col width-20 text-right>
-              <ion-badge color="rate55" item-right><h2>52%</h2></ion-badge>
+              <ion-badge class="icon-button" color="rate55" item-right><h2>52%</h2></ion-badge>
             </ion-col>
           </ion-row>
+          <ion-row>
+          <ion-segment [(ngModel)]="govt">
+            <ion-segment-button value="local">
+              Local
+            </ion-segment-button>
+            <ion-segment-button value="state">
+              State
+            </ion-segment-button>
+            <ion-segment-button value="federal">
+              Federal
+            </ion-segment-button>
+          </ion-segment>
+      </ion-row>
 
+    <ion-row padding="10px">
           <canvas baseChart
             [data]="doughnutChartData"
             [labels]="doughnutChartLabels"
@@ -28,7 +48,7 @@
             [colors]="doughnutChartColors"
             [legend]=false>
           </canvas>
-
+    </ion-row>
       </ion-col>
     </ion-row>
   </ion-grid>

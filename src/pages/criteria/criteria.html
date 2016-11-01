@@ -6,17 +6,34 @@
 
 <ion-content padding>
 
-  <h2 text-center>
-    Media policy is publicly available on their website
-  </h2>
-  <canvas baseChart
-    [datasets]="lineChartData"
-    [labels]="lineChartLabels"
-    [chartType]="lineChartType"
-    (chartHover)="chartHovered($event)"
-    (chartClick)="chartClicked($event)">
-  </canvas>
-  <button ion-button block (click)="openModal()">Take Action</button>
+    <ion-grid padding>
+      <ion-row>
+        <ion-col width-100>
+
+            <ion-row>
+              <ion-col width-80>
+                <h2 text-left>Media Policy is Clear and Consistent</h2>
+              </ion-col>
+              <ion-col width-20 text-right>
+                <ion-badge color="rate50" item-right><h2>48%</h2></ion-badge>
+              </ion-col>
+            </ion-row>
+
+            <canvas baseChart
+              [datasets]="lineChartData"
+              [labels]="lineChartLabels"
+              [chartType]="lineChartType"
+              [colors]="lineChartColors"
+              [legend]="lineChartLegend"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)">
+            </canvas>
+            <button ion-button block (click)="openModal()">Take Action</button>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
 
   <ion-list>
     <ion-list-header>
