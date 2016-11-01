@@ -1,5 +1,10 @@
 page-comparison {
 
+
+        #city-title {
+            font-size: 14pt;
+        }
+
       .icon-button {
           height: 100%;
           color: #FFF;
@@ -12,15 +17,24 @@ page-comparison {
       }
 
 
-
       button ion-badge  {
         height: 100%;
+        margin: 0;
         h2 {
-
+            height: 100%;
           color: #FFF;
         }
       }
 
-    
+      button .item-inner ion-badge  {
+        height: 100%;
+        margin: 0;
+        h2 {
+            height: 100%;
+          color: #FFF;
+        }
+      }
+
+
 
 }
