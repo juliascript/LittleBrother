@@ -5,22 +5,33 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
 
-    <ion-card-content>
-      <ion-card-title>
-        <h1>San Francisco, CA</h1>
-      </ion-card-title>
-      <ion-fab edge-right>
-        <button ion-fab color="rate75" text-color="light">
-      <h1>76%</h1>
-    </button>
-      </ion-fab>
-      <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)" [colors]="doughnutChartColors" [legend]=false></canvas>
+  <ion-grid padding>
+    <ion-row>
+      <ion-col width-100>
 
-    </ion-card-content>
+          <ion-row>
+            <ion-col width-80>
+              <h2 text-left>San Francisco, CA</h2>
+            </ion-col>
+            <ion-col width-20 text-right>
+              <ion-badge color="rate75" item-right><h2>75%</h2></ion-badge>
+            </ion-col>
+          </ion-row>
 
-  </ion-card>
+          <canvas baseChart
+            [data]="doughnutChartData"
+            [labels]="doughnutChartLabels"
+            [chartType]="doughnutChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)"
+            [colors]="doughnutChartColors"
+            [legend]=false>
+          </canvas>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 
   <ion-list no-border>

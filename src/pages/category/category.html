@@ -10,16 +10,14 @@
     <ion-row>
       <ion-col width-100>
 
-          <ion-card-title>
-            <ion-row>
-              <ion-col width-50>
-                <h2 text-left>Transparency</h2>
-              </ion-col>
-              <ion-col width-50 text-right>
-                <ion-badge item-right><h1>63%</h1></ion-badge>
-              </ion-col>
-            </ion-row>
-          </ion-card-title>
+          <ion-row>
+            <ion-col width-80>
+              <h2 text-left>Transparency</h2>
+            </ion-col>
+            <ion-col width-20 text-right>
+              <ion-badge color="rate60" item-right><h2>63%</h2></ion-badge>
+            </ion-col>
+          </ion-row>
 
           <canvas baseChart
             [datasets]="barChartData"
