@@ -11,7 +11,7 @@ import { CategoryPage } from '../category/category';
 export class RubricPage {
 
     govt: string = "local";
-    
+
     // Doughnut
     public doughnutChartLabels:string[] = ['Transparency', 'Elections', 'Public Safety', 'Health and Social Services', 'Economy', 'Administration', 'Transportation', 'Waste Management'];
     public doughnutChartData:number[] = [73, 78, 95, 63, 73, 62, 91, 36];
