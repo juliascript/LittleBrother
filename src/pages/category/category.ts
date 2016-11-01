@@ -31,7 +31,7 @@ export class CategoryPage {
   public barChartLegend:boolean = false;
 
   public barChartData:any[] = [{
-    data: [83,25,52,76,56,84], label: 'Aspects'
+    data: [52,28,51,64,56,84], label: 'Aspects'
   }];
 
   public barChartColors:any[] = [{
