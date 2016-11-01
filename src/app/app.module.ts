@@ -9,6 +9,7 @@ import { ComparisonPage } from '../pages/comparison/comparison';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TakeActionModal } from '../pages/criteria/criteria';
+import { CitiesModal } from '../pages/rubric/rubric';
 
 import {ChartsModule} from "ng2-charts/components/charts/charts";
 // an incredibly stupid hack just to get charts properly loaded into tooling...
@@ -24,7 +25,8 @@ import '../../node_modules/chart.js/dist/Chart.bundle.min.js';
     ComparisonPage,
     HomePage,
     TabsPage,
-    TakeActionModal
+    TakeActionModal,
+    CitiesModal
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -40,7 +42,8 @@ import '../../node_modules/chart.js/dist/Chart.bundle.min.js';
     ComparisonPage,
     HomePage,
     TabsPage,
-    TakeActionModal
+    TakeActionModal,
+    CitiesModal
   ],
   providers: []
 })
