@@ -1,7 +1,13 @@
 page-category {
 
-  ion-col h2 {
-    margin-bottom: 0;
+  ion-col {
+    h2 {
+      margin-bottom: 0;
+    }
+
+    & ion-badge h2 {
+      color: #FFF;
+    }
   }
 
   .category-score {
@@ -11,6 +17,7 @@ page-category {
   }
 
   button ion-badge  {
+
     height: 100%;
     h2 {
       color: #FFF;
