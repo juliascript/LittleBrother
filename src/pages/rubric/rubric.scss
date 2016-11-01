@@ -1,11 +1,14 @@
 page-rubric {
 
     .icon-button {
-        height: auto;
+        height: 100%;
     }
 
-    ion-badge h2 {
-        color: #FFF;
+    ion-badge  {
+        height: 100%;
+        h2 {
+            color: #FFF;
+        }
     }
 
 }
