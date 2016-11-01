@@ -5,7 +5,6 @@ import { NavParams } from 'ionic-angular';
 import { ModalController } from 'ionic-angular';
 import { ViewController } from 'ionic-angular';
 
-
 @Component({
   selector: 'page-criteria',
   templateUrl: 'criteria.html'
@@ -19,7 +18,7 @@ export class CriteriaPage {
     {data: [28, 48, 40, 19, 86, 27, 90], label: 'Criteria B'},
     {data: [18, 48, 77, 9, 100, 27, 40], label: 'Criteria C'}
   ];
-  public lineChartLabels:Array<any> = ['Jul', 'Aug', 'Sep', 'Oct'];
+  public lineChartLabels:Array<any> = ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'Jan'];
   public lineChartType:string = 'line';
 
   // events

@@ -5,24 +5,21 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
 
-    <ion-card-content>
+  <ion-grid padding>
+    <ion-row>
+      <ion-col width-100>
 
-        <!-- <ion-fab right edge>
-      <button ion-fab color="rate65" text-color="light">
-        <h1>63%</h1>
-      </button>
-    </ion-fab> -->
+          <ion-row>
+            <ion-col width-80>
+              <h2 text-left>Transparency</h2>
+            </ion-col>
+            <ion-col width-20 text-right>
+              <ion-badge color="rate60" item-right><h2>63%</h2></ion-badge>
+            </ion-col>
+          </ion-row>
 
-
-      <ion-card-title text-wrap>
-
-        <h1>Transparency</h1>
-        <ion-badge item-right color="rate65"><h1> 63% </h1></ion-badge>
-      </ion-card-title>
-
-      <canvas baseChart
+          <canvas baseChart
             [datasets]="barChartData"
             [labels]="barChartLabels"
             [options]="barChartOptions"
@@ -30,10 +27,12 @@
             [chartType]="barChartType"
             [colors]="barChartColors"
             (chartHover)="chartHovered($event)"
-            (chartClick)="chartClicked($event)"></canvas>
+            (chartClick)="chartClicked($event)">
+          </canvas>
 
-    </ion-card-content>
-  </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
   <ion-list inset>
 

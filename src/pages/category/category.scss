@@ -1,10 +1,14 @@
 page-category {
 
-    button ion-badge  {
-        height: 100%;
-        h2 {
-            color: #FFF;
-        }
+  ion-col h2 {
+    margin-bottom: 0;
+  }
+
+  button ion-badge  {
+    height: 100%;
+    h2 {
+      color: #FFF;
     }
+  }
 
 }
