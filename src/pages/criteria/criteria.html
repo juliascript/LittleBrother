@@ -4,20 +4,46 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
   <ion-card>
-    <canvas baseChart
-      [datasets]="lineChartData"
-      [labels]="lineChartLabels"
-      [chartType]="lineChartType"
-      (chartHover)="chartHovered($event)"
-      (chartClick)="chartClicked($event)">
-    </canvas>
     <ion-card-content>
-      <ion-card-title>
-        Graph
+      <ion-card-title text-center>
+        <!-- <p text-center> -->
+          Media policy is publicly available on their website
+        <!-- </p> -->
       </ion-card-title>
+      <canvas baseChart
+        [datasets]="lineChartData"
+        [labels]="lineChartLabels"
+        [chartType]="lineChartType"
+        (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)">
+      </canvas>
+      <button ion-button block (click)="openModal()">Take Action</button>
     </ion-card-content>
+    <!-- <ion-item> -->
+    <!-- </ion-item> -->
   </ion-card>
 
+  <ion-list>
+    <ion-list-header>
+      Sources
+    </ion-list-header>
+    <ion-item>
+      <h2>Source 1</h2>
+      <h3>Think Tank 1</h3>
+      <p>http://thinktank1.com</p>
+    </ion-item>
+    <ion-item>
+      <h2>Source 2</h2>
+      <h3>Think Tank 2</h3>
+      <p>http://thinktank2.com</p>
+    </ion-item>
+    <ion-item>
+      <h2>Source 3</h2>
+      <h3>Think Tank 3</h3>
+      <p>http://thinktank3.com</p>
+    </ion-item>
+  </ion-list>
+  <button ion-button block color="light">Dispute Data</button>
 </ion-content>
