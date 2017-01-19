@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,wBAAW;EACT,aAAa,EAAE,CAAC;AAKd,0BAAG;EACC,KAAK,EAAE,IAAI;AAInB,8BAAkB;EAChB,MAAM,EAAE,IAAI;EACZ,iCAAG;IACD,KAAK,EAAE,IAAI",
+"sources": ["criteria.scss"],
+"names": [],
+"file": "criteria.css"
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,wBAAa;EACT,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;AAGf,sBAAW;EACT,aAAa,EAAE,CAAC;EAChB,UAAU,EAAE,CAAC;AAIf,4BAAkB;EAChB,MAAM,EAAE,IAAI;EACZ,+BAAG;IAED,KAAK,EAAE,IAAI",
+"sources": ["rubric.scss"],
+"names": [],
+"file": "rubric.css"
+}

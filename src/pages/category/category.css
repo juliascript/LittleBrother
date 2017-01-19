@@ -1,0 +1,12 @@
+page-category ion-col h2 {
+  margin-bottom: 0; }
+page-category ion-col ion-badge h2 {
+  color: #FFF; }
+page-category .category-score {
+  color: #FFF; }
+page-category button ion-badge {
+  height: 100%; }
+  page-category button ion-badge h2 {
+    color: #FFF; }
+
+/*# sourceMappingURL=category.css.map */

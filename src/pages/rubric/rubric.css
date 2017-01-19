@@ -1,0 +1,12 @@
+page-rubric .icon-button {
+  height: 100%;
+  color: #FFF; }
+page-rubric ion-col h2 {
+  margin-bottom: 0;
+  margin-top: 0; }
+page-rubric button ion-badge {
+  height: 100%; }
+  page-rubric button ion-badge h2 {
+    color: #FFF; }
+
+/*# sourceMappingURL=rubric.css.map */

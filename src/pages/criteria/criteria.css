@@ -1,0 +1,10 @@
+page-criteria ion-col h2 {
+  margin-bottom: 0; }
+page-criteria ion-badge h2 {
+  color: #FFF; }
+page-criteria button ion-badge {
+  height: 100%; }
+  page-criteria button ion-badge h2 {
+    color: #FFF; }
+
+/*# sourceMappingURL=criteria.css.map */
